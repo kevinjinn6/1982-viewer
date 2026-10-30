@@ -1,0 +1,33 @@
+{
+ "_README": "Fixed viewpoints matched to a reference photograph, listed in the viewpoint dropdown of both views (evidence: web/viewer.js; analogue: tools/photoreal_mockup.html). Hand-made; build_viewer.py copies it to output/viewer_1982/data/ and analogue/data/. E, N in EPSG:2326; heading_deg clockwise from grid north; pitch_deg above the horizon; eye_m above the viewer's ground at that point; hfov_deg the horizontal field of view, kept whatever the window's shape. Choosing one puts the camera there and pauses walking; walking on returns the eye to walking height and keeps the field of view (the FOV control changes it). The same settings go in the URL hash: #E=..&N=..&h=..&z=..&p=..&fov=..",
+ "viewpoints": [
+  {
+   "id": "VP01",
+   "label": "VP01 · Ho Sheung Heung Rd, Street View May 2009",
+   "E": 828679.47,
+   "N": 841005.54,
+   "position_note": "Fitted to the CEDD LiDAR DSM 2010/11 (flown ~19 months after the frame; its roofs fill the 1980 outlines of FP821, FP717 and FP765), the user's decision of 2026-10-24: a resection on FP821's road corner (roof and foot), FP717's near roof corner, FP821's roofline at the frame edge and the road direction, position free, heading/pitch/FOV kept (work/viewer_1982/viewpoints/vp01_resect.py, 'position only', RMS 19 px), checked by eye on vp01_dsm2010_posonly_blend.png. 5.7 m from the converted Street View fix E 828674.12 N 841003.69 (about 5.4 m back up the road, 1.8 m south-east). Replaces a 1 m north-west move made earlier the same day from a fit of the 1980 road line to the 2009 kerbs, which cannot see position along the road and assumed the road unchanged (it was widened south-east after 1980). With the FOV also free, 75-121 deg fit about as well: 75 kept. No 1982 geometry was changed.",
+   "heading_deg": 240.2,
+   "pitch_deg": 1.1,
+   "eye_m": 2.5,
+   "hfov_deg": 75,
+   "reference": {
+    "what": "Google Street View, image capture May 2009, labelled \"86 Ho Sheung Heung Rd\"; panorama WKhD9WwhkrR4uaDxb8S-vw",
+    "url_as_read": "google.com/maps/place/Kwu+Tung,+New+Territories,+Hong+Kong/@22.5086595,114.1030685,12a,75y,240.17h,91.1t/data=!3m8!1e1!3m6!1sWKhD9WwhkrR4uaDxb8S-vw!2e0!5s20090501T000... (read off the screenshot's address bar, cut off there)",
+    "lat": 22.5086595,
+    "lon": 114.1030685,
+    "heading_true_deg": 240.17,
+    "tilt": 91.1,
+    "fov_param": 75,
+    "screenshot": "reference/images/GOOGLE_streetview-capture-2009-05-ho-sheung-heung-rd_kwu-tung_2026-10.png",
+    "canvas_px": [390, 88, 1920, 1080],
+    "canvas_note": "the Street View canvas in the screenshot, x 390-1920, y 88-1080 (1530 x 992); its bottom 125 px carry the date strip and its top left the address card"
+   },
+   "conversion": "ogr2ogr -s_srs EPSG:4326 -t_srs EPSG:2326 (QGIS bundle, GDAL 3.3.2), as build_viewer.py photo_index_2326() does: E 828674.116, N 841003.695 (gdaltransform agrees). Grid convergence there +0.028 deg (true north lies east of grid north), so heading 240.17 true = 240.20 from grid north. Work files in work/viewer_1982/viewpoints/",
+   "notes": "eye 2.5 m is the Street View camera height, not walking height. hfov 75 is the URL's 75y read as the horizontal field of view: a starting value, to be tuned by eye. Street View's own position is a GPS fix of a moving car, good to a few metres at best. The ground under the eye is the viewer's (CEDD LiDAR 2010/11 with the spot-height patch), not the 2009 road surface.",
+   "source_ids": ["S45"],
+   "added": "2026-10-24",
+   "by": "Claude, at the user's request"
+  }
+ ]
+}

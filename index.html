@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kwu Tung North 1982</title>
+<link rel="icon" href="data:,">
+<style>html,body{margin:0;height:100%;background:#1b1d20;color:#e7e9eb;font:13px system-ui,sans-serif}[hidden]{display:none!important}</style>
+<script>
+  // a bare visit (no ?query, no #position) opens the story in the analogue view (the author, 2026-10-30: "start on
+  // story, since it's hard to navigate to there"); the analogue view's Evidence button always carries a #position,
+  // and tools that open this page pass a query (?author, ?evidence), so they still land here
+  if (!location.search && !location.hash) location.replace('analogue/index.html?story');
+  // style.css and viewer.js are fetched fresh on every load (same folder, a time stamp in the
+  // query), so a rebuild is never masked by a copy cached under the server's max-age
+  // (serve.py 300 s, the review server 3600 s). The stylesheet still blocks rendering.
+  (function () {
+    var v = Date.now().toString(36), head = document.head;
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'style.css?v=' + v;
+    css.setAttribute('blocking', 'render');
+    head.appendChild(css);
+    ['keymap.js', 'viewer.js'].forEach(function (f) {   // in this order: viewer.js uses the key map
+      var js = document.createElement('script');
+      js.src = f + '?v=' + v;
+      js.async = false;
+      head.appendChild(js);
+    });
+  })();
+</script>
+</head>
+<body data-mode="map">
+<header id="top">
+  <div class="titles">
+    <h1 id="title">Kwu Tung North, December 1982</h1>
+    <p id="note">Prototype. Unchecked and inferred elements are not evidence.</p>
+  </div>
+  <span id="dev-badge" class="author-only" hidden>DEVELOPMENT DATA</span>
+  <nav id="tools" aria-label="View">
+    <button type="button" id="btn-map" aria-pressed="true" title="The 2D map (M or Esc in the walk)">Map</button>
+    <button type="button" id="btn-walk" aria-pressed="false" title="Back into the walk at the walker's position">Walk</button>
+    <button type="button" id="btn-look" class="author-only" aria-pressed="false" title="Mouse-look: the pointer turns the view, a click identifies at the crosshair, Esc releases">Mouse look <kbd>L</kbd></button>
+    <button type="button" id="btn-analogue" title="The same spot in the analogue view: photographic surfaces from CC0 textures, other villages and the 1975 print, on the sourced geometry. Not evidence">Analogue view</button>
+    <select id="vp-select" class="author-only" title="Fixed viewpoints matched to a reference photo (viewpoints.json): the camera goes there with that photo's eye height, pitch and field of view, and walking pauses" hidden><option value="">Viewpoint&hellip;</option></select>
+    <label id="fov-ctl" class="fov walk-only author-only" title="Horizontal field of view of the walk, in degrees: tune it by eye to match a photo. Empty it for the default (60&deg; vertical)">FOV <input type="number" id="fov" min="10" max="120" step="0.5" aria-label="Horizontal field of view, degrees">&deg;</label>
+    <button type="button" id="btn-shot" title="Save the view as a PNG with its position (EPSG:2326), direction, epoch and credit">Screenshot <kbd>P</kbd></button>
+    <button type="button" id="btn-overlay" class="walk-only author-only" title="Save the walk view alone at 1530 x 992 px, the size of the Street View canvas: no band, key map or crosshair, the same horizontal field of view; position, direction and field of view in the PNG's text chunk">Frame for overlay</button>
+    <button type="button" id="btn-keymap" aria-pressed="true" title="The key map in the corner of the walk: where you stand on the December 1982 photo, north up">Key map <kbd>K</kbd></button>
+    <button type="button" id="btn-legend" aria-pressed="true">Legend</button>
+    <button type="button" id="btn-help" title="Keys and mouse">Help <kbd>H</kbd></button>
+  </nav>
+</header>
+<main id="stage">
+  <div id="view">
+    <canvas id="map" aria-label="2D map: the December 1982 photograph with the features drawn on it, coloured by tier"></canvas>
+    <canvas id="gl" aria-label="3D walk at eye height"></canvas>
+    <div id="zoom" class="map-only">
+      <button type="button" id="zoom-in" aria-label="Zoom in" title="Zoom in (+)">+</button>
+      <button type="button" id="zoom-out" aria-label="Zoom out" title="Zoom out (-)">&minus;</button>
+    </div>
+    <div id="map-hint" class="map-only">Click the map to walk from there · Shift-click to identify only</div>
+    <canvas id="keymap" class="walk-only" aria-label="Key map: where you stand on the December 1982 photograph, north up, with the way you face"></canvas>
+    <div id="crosshair" hidden></div>
+    <div id="tooltip" hidden></div>
+    <div id="hint" hidden></div>
+    <div id="loading" role="status">Loading the December 1982 photograph, the terrain and the features&hellip;</div>
+    <div id="error" role="alert" hidden></div>
+    <div id="intro" role="dialog" aria-labelledby="intro-title" hidden>
+      <div class="intro-card">
+        <h2 id="intro-title">Kwu Tung North, December 1982</h2>
+        <p>A reconstruction of the valley as a survey aircraft photographed it on 21 December 1982, decades before the New Development Area.</p>
+        <ul>
+          <li><b>Click the map to walk</b> from that point at eye height. <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> to move, drag to look, <kbd>M</kbd> for the map again.</li>
+          <li><b>Colour says how sure it is.</b> Blue is shown in a dated source; the other colours are rules, guesses and borrowed material. Click anything to see where it comes from.</li>
+          <li><b>The analogue view is not evidence.</b> Its surfaces come from other villages and texture libraries, laid on the sourced outlines.</li>
+        </ul>
+        <div class="intro-foot"><button type="button" id="intro-help">Keys and mouse</button><button type="button" id="intro-close" class="primary">Start</button></div>
+      </div>
+    </div>
+    <div id="help" role="dialog" aria-labelledby="help-title" hidden>
+      <div class="help-card">
+        <div class="help-head"><h2 id="help-title">Keys and mouse</h2><button type="button" id="help-close" aria-label="Close help">&times;</button></div>
+        <h3>Map</h3>
+        <dl>
+          <dt>Drag</dt><dd>pan</dd>
+          <dt>Wheel, <kbd>+</kbd> <kbd>&minus;</kbd></dt><dd>zoom</dd>
+          <dt>Click</dt><dd>walk from that point at eye height, facing north; on a building, stand 2&nbsp;m outside it, facing it, with its record open</dd>
+          <dt>Shift-click</dt><dd>open the record only, stay on the map</dd>
+          <dt>Click a camera mark</dt><dd>open the photo hotspot: F = the site today, A = analogue (another village, not evidence), H = archival</dd>
+          <dt><kbd>U</kbd></dt><dd>show or hide the features not in the model: dotted = pending confirmation (on the Aug 1983 sheet, not confirmed on the Dec 1982 photo); dashed = absent in Dec 1982 (on the 1981 sheet, nothing there on the photo)</dd>
+        </dl>
+        <h3>Walk</h3>
+        <dl>
+          <dt><kbd>W</kbd> <kbd>S</kbd> or <kbd>&uarr;</kbd> <kbd>&darr;</kbd></dt><dd>forward, back</dd>
+          <dt><kbd>A</kbd> <kbd>D</kbd> or <kbd>&larr;</kbd> <kbd>&rarr;</kbd></dt><dd>step left, right</dd>
+          <dt><kbd>Q</kbd> <kbd>E</kbd></dt><dd>turn left, right</dd>
+          <dt><kbd>Shift</kbd></dt><dd>three times the walking speed</dd>
+          <dt>Drag</dt><dd>look around (the view turns the way you drag)</dd>
+          <dt><kbd>L</kbd></dt><dd>mouse-look: the pointer turns the view; a click identifies at the crosshair; <kbd>Esc</kbd> releases</dd>
+          <dt>Click</dt><dd>identify: the record opens in the side panel (the ground has one too)</dd>
+          <dt><kbd>M</kbd> or <kbd>Esc</kbd></dt><dd>back to the map, which shows where you stand and which way you face</dd>
+          <dt><kbd>K</kbd></dt><dd>show or hide the key map (top right): where you stand, north up; scroll over it to zoom in and follow; click a point on it to go there, facing the same way (beside a building, if the point is inside one)</dd>
+          <dt><kbd>P</kbd></dt><dd>save a screenshot (map or walk) with its position, direction, epoch and credit</dd>
+          <dt><kbd>H</kbd></dt><dd>this help</dd>
+        </dl>
+        <p class="help-note">Ground level only: the eye stays at the eye height above the terrain, with no flying or jumping, and buildings cannot be entered.</p>
+      </div>
+    </div>
+  </div>
+  <aside id="side">
+    <section id="info" hidden aria-live="polite">
+      <div class="info-head"><h2 id="info-title"></h2><button type="button" id="info-close" aria-label="Close the record">&times;</button></div>
+      <p id="info-sub"></p>
+      <div id="info-plain"></div>
+      <figure id="info-fig" hidden><img id="info-img" alt=""><figcaption id="info-cap"></figcaption></figure>
+      <details id="info-full">
+        <summary>Full record</summary>
+        <table id="info-main" class="kv"></table>
+        <h3 id="info-later-h" hidden>Later context (2019-2026, not 1982)</h3>
+        <table id="info-later" class="kv"></table>
+        <h3 id="info-more-h">All other properties</h3>
+        <table id="info-more" class="kv"></table>
+      </details>
+    </section>
+    <section id="legend" aria-labelledby="legend-title">
+      <h2 id="legend-title">Legend</h2>
+      <div id="legend-pending">
+        <button type="button" id="btn-pending" aria-pressed="false" title="Show the features that are not part of the 1982 model, on the 2D map only: dotted = on the Aug 1983 sheet, not confirmed on the Dec 1982 photo; dashed = on the 1981 sheet, absent from the Dec 1982 photo (the author's check)">Show what was left out <kbd>U</kbd></button>
+        <p>Structures the survey sheets draw but the December 1982 photograph does not confirm. Drawn on the 2D map only, never in the model.</p>
+      </div>
+      <div id="legend-body"></div>
+    </section>
+  </aside>
+</main>
+<footer id="status" class="author-only" aria-hidden="true">&nbsp;</footer>
+</body>
+</html>

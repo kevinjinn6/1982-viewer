@@ -1,0 +1,65 @@
+{
+ "fade_s": 1.2,
+ "loop": true,
+ "loudness_lufs": -32.0,
+ "limiter_db": -6,
+ "chapters": {
+  "productive": {
+   "file": "productive.m4a",
+   "source": "IMG_9085.MOV",
+   "site": "near Ho Sheung Heung (2)",
+   "recorded": "2026-08-01",
+   "start": 0.0,
+   "cut": [],
+   "seconds": 15.0,
+   "lufs": -44.74,
+   "peak_dbfs": -32.46,
+   "gain_db": 0.0,
+   "volume": 1.0
+  },
+  "yards": {
+   "file": "yards.m4a",
+   "source": "MVI_5314.MP4",
+   "site": "near Chung Sam Wai",
+   "recorded": "2026-07-24",
+   "start": 0.0,
+   "cut": [],
+   "seconds": 15.0,
+   "lufs": -22.87,
+   "peak_dbfs": -3.53,
+   "gain_db": -9.13,
+   "volume": 0.3495
+  },
+  "estate-huts": {
+   "file": "estate-huts.m4a",
+   "source": "MVI_5226.MP4",
+   "site": "Fanling Wai (1)",
+   "recorded": "2026-07-19",
+   "start": 0.0,
+   "cut": [
+    [
+     1.98,
+     2.38
+    ]
+   ],
+   "seconds": 14.98,
+   "lufs": -28.78,
+   "peak_dbfs": -14.01,
+   "gain_db": -3.22,
+   "volume": 0.6902
+  },
+  "after": {
+   "file": "after.m4a",
+   "source": "MVI_5340.MP4",
+   "site": "near Chung Sam Wai",
+   "recorded": "2026-07-24",
+   "start": 0.0,
+   "cut": [],
+   "seconds": 15.0,
+   "lufs": -30.98,
+   "peak_dbfs": -11.05,
+   "gain_db": -1.02,
+   "volume": 0.8892
+  }
+ }
+}

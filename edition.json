@@ -1,0 +1,44 @@
+{
+ "edition": "public",
+ "built": "2026-10-30 01:06",
+ "files": 3186,
+ "note": "Public build: no third-party image is shown. Surfaces once cut from photographs of the estate are drawn with CC0 stand-ins, and the photographs are cited, each with a link to its own page.",
+ "restricted": [
+  {
+   "id": "TX01",
+   "file": "data/textures/TX01.jpg",
+   "shown": "no: CC0 Poly Haven white_stucco_02 (S36), brought to the brightness of the 1975 white (its mean, a colour, not the photo): white render, as the 1975 photograph (Gwulo 14358, AR01) shows it, cited, not shown",
+   "citation": "Gwulo.com, media/14358, 'Army Housing site. Dills Corner Camp 1975', uploaded by '70s kid'",
+   "url": "https://gwulo.com/media/14358"
+  },
+  {
+   "id": "TX09",
+   "file": "data/textures/TX09.jpg",
+   "shown": "no: CC0 ambientCG Facade001 glass (S56) with its pane frames recoloured as steel bars by tools/archival_textures.py: four casements under a top light, the layout of Block 3's window on DEVB press photo 06 (2019, AR05), cited, not shown",
+   "citation": "Press photo: Dills Corner Garden residential care homes (DEVB press release photos, 27 Jan 2019, no. 06)",
+   "url": "https://www.devb.gov.hk/filemanager/en/content_1044/20190127_06.html"
+  },
+  {
+   "id": "TX02",
+   "file": "analogue/data/textures/TX02.jpg",
+   "shown": "no: CC0 ambientCG Facade001 glass (S56) with its pane frames recoloured as steel bars by tools/archival_textures.py: four casements under a top light, the layout of Block 3's window on DEVB press photo 06 (2019, AR05), cited, not shown; the painted openings of the 1975 print are not drawn while the modelled openings (FN05) are on, which they always are",
+   "citation": "Gwulo.com, media/14358, 'Army Housing site. Dills Corner Camp 1975', uploaded by '70s kid'",
+   "url": "https://gwulo.com/media/14358"
+  },
+  {
+   "id": "TX07",
+   "file": "analogue/data/textures/TX07.jpg",
+   "shown": "no: CC0 ambientCG Facade001 glass (S56) with its pane frames recoloured as steel bars by tools/archival_textures.py: four casements under a top light, the layout of Block 3's window on DEVB press photo 06 (2019, AR05), cited, not shown; the painted openings of the 1975 print are not drawn while the modelled openings (FN05) are on, which they always are",
+   "citation": "Gwulo.com, media/14358, 'Army Housing site. Dills Corner Camp 1975', uploaded by '70s kid'",
+   "url": "https://gwulo.com/media/14358"
+  },
+  {
+   "id": "TX08",
+   "file": "analogue/data/textures/TX08.jpg",
+   "shown": "no: CC0 ambientCG Facade001 glass (S56) with its pane frames recoloured as steel bars by tools/archival_textures.py: four casements under a top light, the layout of Block 3's window on DEVB press photo 06 (2019, AR05), cited, not shown; the painted openings of the 1975 print are not drawn while the modelled openings (FN05) are on, which they always are",
+   "citation": "Gwulo.com, media/14358, 'Army Housing site. Dills Corner Camp 1975', uploaded by '70s kid'",
+   "url": "https://gwulo.com/media/14358"
+  }
+ ],
+ "share": "public, no password (the submission repository)"
+}

@@ -1,0 +1,140 @@
+{
+	"asset" : {
+		"generator" : "FME 2023.0.2.0",
+		"version" : "2.0"
+	},
+	"images" : [
+		{
+			"uri" : "B285204094801062A0_001.jpg"
+		}
+	],
+	"samplers" : [
+		{
+			"wrapS" : 10497,
+			"wrapT" : 10497,
+			"magFilter" : 9729,
+			"minFilter" : 9986
+		}
+	],
+	"textures" : [
+		{
+			"source" : 0,
+			"sampler" : 0
+		}
+	],
+	"materials" : [
+		{
+			"name" : "B285204094801062A0",
+			"pbrMetallicRoughness" : {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"roughnessFactor" : 0.9843750009313226,
+				"metallicFactor" : 0.5
+			}
+		}
+	],
+	"meshes" : [
+		{
+			"primitives" : [
+				{
+					"attributes" : {
+						"NORMAL" : 1,
+						"POSITION" : 0,
+						"TEXCOORD_0" : 2
+					},
+					"indices" : 3,
+					"material" : 0,
+					"mode" : 4
+				}
+			]
+		}
+	],
+	"nodes" : [
+		{
+			"name" : "B285204094801062A0",
+			"matrix" : [ 0.0254, 0, 0, 0, 0, 0, -0.0254, 0, 0, 0.0254, 0, 0, 828519.7552, 10.786000549316405, -840949.0928, 1 ],
+			"children" : [ 1 ]
+		},
+		{
+			"mesh" : 0
+		}
+	],
+	"scenes" : [
+		{
+			"nodes" : [ 0 ]
+		}
+	],
+	"scene" : 0,
+	"accessors" : [
+		{
+			"bufferView" : 0,
+			"byteOffset" : 0,
+			"componentType" : 5126,
+			"count" : 57,
+			"type" : "VEC3",
+			"min" : [ -154.48143005371094, -167.3228302001953, 0 ],
+			"max" : [ 154.48143005371094, 167.16905212402344, 201.29920959472656 ]
+		},
+		{
+			"bufferView" : 1,
+			"byteOffset" : 0,
+			"componentType" : 5126,
+			"count" : 57,
+			"type" : "VEC3",
+			"min" : [ -0.9709024429321289, -0.972058117389679, -0.0056533366441726685 ],
+			"max" : [ 0.9736045002937317, 0.9672871828079224, 1 ]
+		},
+		{
+			"bufferView" : 2,
+			"byteOffset" : 0,
+			"componentType" : 5126,
+			"count" : 57,
+			"type" : "VEC2",
+			"min" : [ 0, 0.41600000858306885 ],
+			"max" : [ 0.5917999744415283, 1 ]
+		},
+		{
+			"bufferView" : 3,
+			"byteOffset" : 0,
+			"componentType" : 5121,
+			"count" : 57,
+			"type" : "SCALAR",
+			"min" : [ 0 ],
+			"max" : [ 56 ]
+		}
+	],
+	"bufferViews" : [
+		{
+			"buffer" : 0,
+			"byteOffset" : 0,
+			"byteLength" : 684,
+			"target" : 34962
+		},
+		{
+			"buffer" : 0,
+			"byteOffset" : 684,
+			"byteLength" : 684,
+			"target" : 34962
+		},
+		{
+			"buffer" : 0,
+			"byteOffset" : 1368,
+			"byteLength" : 456,
+			"target" : 34962
+		},
+		{
+			"buffer" : 0,
+			"byteOffset" : 1824,
+			"byteLength" : 57,
+			"target" : 34963
+		}
+	],
+	"buffers" : [
+		{
+			"uri" : "B285204094801062A0.bin",
+			"byteLength" : 1881
+		}
+	]
+}
