@@ -1,0 +1,176 @@
+{
+ "_README": "Surfaces for the Lady Ho Tung Welfare Centre mockup (2026-10-30), cut from the author's own photographs of 1 Aug 2026.",
+ "rights": "own-work: the author's photographs, 1 Aug 2026",
+ "textures": {
+  "render": {
+   "photo": "IMG_5518",
+   "how": "crop (805,620)-(1000,900), light flattened, made tileable",
+   "size": [
+    160,
+    230
+   ],
+   "covers_m": [
+    0.85,
+    1.2
+   ],
+   "tiles": true,
+   "note": "cream render between the west window and the door",
+   "tier": "direct: this building, 2026"
+  },
+  "plinth": {
+   "photo": "IMG_5518",
+   "how": "crop (530,1028)-(990,1080), flattened, tileable",
+   "size": [
+    405,
+    46
+   ],
+   "covers_m": [
+    2.0,
+    0.23
+   ],
+   "tiles": true,
+   "note": "grey painted plinth",
+   "tier": "direct: this building, 2026"
+  },
+  "tiles": {
+   "photo": "IMG_5518",
+   "how": "DRAWN: pan and roll colours = medians of the reddish and grey pixels in crop (1250,372)-(1850,482); geometry inferred",
+   "size": [
+    256,
+    237
+   ],
+   "covers_m": [
+    1.08,
+    1.0
+   ],
+   "tiles": true,
+   "note": "double pan-and-roll tiles, red-brown pans under grey rolls; roll pitch 0.27 m and course 0.25 m are drawing defaults",
+   "tier": "direct: this building, 2026"
+  },
+  "win_bung": {
+   "photo": "IMG_5518",
+   "how": "crop (524,566)-(784,940): window-5, frame and reveal",
+   "size": [
+    260,
+    374
+   ],
+   "covers_m": [
+    1.3,
+    1.87
+   ],
+   "tiles": false,
+   "note": "Bungalow casement window, grey-blue frame, square panes, obscure glass below",
+   "tier": "direct: this building, 2026"
+  },
+  "win_bung_narrow": {
+   "photo": "IMG_5518",
+   "how": "crop (1788,636)-(1880,950): window-6, open leaf as photographed",
+   "size": [
+    92,
+    314
+   ],
+   "covers_m": [
+    0.46,
+    1.57
+   ],
+   "tiles": false,
+   "note": "Bungalow narrow window (one leaf stands open in the photo)",
+   "tier": "direct: this building, 2026"
+  },
+  "door_bung": {
+   "photo": "IMG_5518",
+   "how": "crop (1012,592)-(1186,1118): door with fanlight",
+   "size": [
+    174,
+    526
+   ],
+   "covers_m": [
+    0.87,
+    2.63
+   ],
+   "tiles": false,
+   "note": "Bungalow external door: glazed upper panel, fanlight, grey-blue paint",
+   "tier": "direct: this building, 2026"
+  },
+  "sill": {
+   "photo": "IMG_5518",
+   "how": "crop (500,945)-(795,980): the red brick sill face",
+   "size": [
+    266,
+    32
+   ],
+   "covers_m": [
+    1.45,
+    0.17
+   ],
+   "tiles": true,
+   "note": "red brick sill with white joints",
+   "tier": "direct: this building, 2026"
+  },
+  "win_main": {
+   "photo": "IMG_5537",
+   "how": "rectified from the frame corners (1003,668) (1140,640) (1138,1215) (1005,1200); 1.3 x 2.5 m assumed",
+   "size": [
+    260,
+    500
+   ],
+   "covers_m": [
+    1.3,
+    2.5
+   ],
+   "tiles": false,
+   "note": "Main Block casement window with its top-hung upper light; the 1.3 m width is the HIA plan's, the 2.5 m height a reading of the pane proportions",
+   "tier": "direct: this building, 2026"
+  },
+  "head": {
+   "photo": "IMG_5537",
+   "how": "rectified brick head over the nearer window",
+   "size": [
+    340,
+    90
+   ],
+   "covers_m": [
+    1.7,
+    0.45
+   ],
+   "tiles": false,
+   "note": "red brick window head with white joints",
+   "tier": "direct: this building, 2026"
+  },
+  "entrance": {
+   "photo": "IMG_5537",
+   "how": "rectified on the stone opening (1375,580)-(1780,440) and the transom bar (1378,804)-(1790,750); opening 1.6 m, transom 0.9 m assumed; frame -0.62..2.22 m across, -1.25..2.6 m down from the opening top",
+   "size": [
+    568,
+    770
+   ],
+   "covers_m": [
+    2.84,
+    3.85
+   ],
+   "tiles": false,
+   "note": "granite doorcase with the name panel LADY HO TUNG WELFARE CENTRE / 何東麥夫人醫局 and the glazed double door; the photo stops above the threshold, so the door's lowest 0.4 m are filled from the leaves above (see make_textures.py)",
+   "tier": "direct: this building, 2026"
+  },
+  "door2": {
+   "photo": "IMG_5537",
+   "how": "cut from entrance.jpg: the double door and its fanlight (1.5 x 2.6 m)",
+   "size": [
+    300,
+    520
+   ],
+   "covers_m": [
+    1.5,
+    2.6
+   ],
+   "tiles": false,
+   "note": "stand-in for the verandah's glazed double doors: the entrance door of the same building",
+   "tier": "direct: this building, 2026"
+  }
+ },
+ "granite_rgb": [
+  144,
+  134,
+  124
+ ]
+}

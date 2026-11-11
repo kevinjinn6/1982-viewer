@@ -1,0 +1,140 @@
+{
+	"asset" : {
+		"generator" : "FME 2023.1.0.0",
+		"version" : "2.0"
+	},
+	"images" : [
+		{
+			"uri" : "B293574042901062A0_001.jpg"
+		}
+	],
+	"samplers" : [
+		{
+			"wrapS" : 10497,
+			"wrapT" : 10497,
+			"magFilter" : 9729,
+			"minFilter" : 9986
+		}
+	],
+	"textures" : [
+		{
+			"source" : 0,
+			"sampler" : 0
+		}
+	],
+	"materials" : [
+		{
+			"name" : "B293574042901062A0",
+			"pbrMetallicRoughness" : {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"roughnessFactor" : 0.9843750009313226,
+				"metallicFactor" : 0.5
+			}
+		}
+	],
+	"meshes" : [
+		{
+			"primitives" : [
+				{
+					"attributes" : {
+						"NORMAL" : 1,
+						"POSITION" : 0,
+						"TEXCOORD_0" : 2
+					},
+					"indices" : 3,
+					"material" : 0,
+					"mode" : 4
+				}
+			]
+		}
+	],
+	"nodes" : [
+		{
+			"name" : "B293574042901062A0",
+			"matrix" : [ 0.0254, 0, 0, 0, 0, 0, -0.0254, 0, 0, 0.0254, 0, 0, 829355.466, 9.0709998046875, -840429.5103999999, 1 ],
+			"children" : [ 1 ]
+		},
+		{
+			"mesh" : 0
+		}
+	],
+	"scenes" : [
+		{
+			"nodes" : [ 0 ]
+		}
+	],
+	"scene" : 0,
+	"accessors" : [
+		{
+			"bufferView" : 0,
+			"byteOffset" : 0,
+			"componentType" : 5126,
+			"count" : 603,
+			"type" : "VEC3",
+			"min" : [ -265.5173645019531, -230.22268676757812, 0 ],
+			"max" : [ 265.59423828125, 230.22268676757812, 480.3149719238281 ]
+		},
+		{
+			"bufferView" : 1,
+			"byteOffset" : 0,
+			"componentType" : 5126,
+			"count" : 603,
+			"type" : "VEC3",
+			"min" : [ -0.9989013671875, -1, -1 ],
+			"max" : [ 0.9998717308044434, 0.9991331100463867, 1 ]
+		},
+		{
+			"bufferView" : 2,
+			"byteOffset" : 0,
+			"componentType" : 5126,
+			"count" : 603,
+			"type" : "VEC2",
+			"min" : [ 0, 0.40039998292922974 ],
+			"max" : [ 0.600600004196167, 1 ]
+		},
+		{
+			"bufferView" : 3,
+			"byteOffset" : 0,
+			"componentType" : 5123,
+			"count" : 603,
+			"type" : "SCALAR",
+			"min" : [ 0 ],
+			"max" : [ 602 ]
+		}
+	],
+	"bufferViews" : [
+		{
+			"buffer" : 0,
+			"byteOffset" : 0,
+			"byteLength" : 7236,
+			"target" : 34962
+		},
+		{
+			"buffer" : 0,
+			"byteOffset" : 7236,
+			"byteLength" : 7236,
+			"target" : 34962
+		},
+		{
+			"buffer" : 0,
+			"byteOffset" : 14472,
+			"byteLength" : 4824,
+			"target" : 34962
+		},
+		{
+			"buffer" : 0,
+			"byteOffset" : 19296,
+			"byteLength" : 1206,
+			"target" : 34963
+		}
+	],
+	"buffers" : [
+		{
+			"uri" : "B293574042901062A0.bin",
+			"byteLength" : 20502
+		}
+	]
+}
