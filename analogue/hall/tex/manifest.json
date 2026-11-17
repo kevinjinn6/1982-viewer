@@ -1,0 +1,782 @@
+{
+ "_README": "Surfaces for the hall / temple mockup (2026-10-25), cut from the author's photographs of 1 Aug 2026.",
+ "textures": {
+  "hall_porch_wall": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    192,
+    486,
+    2098,
+    1134
+   ],
+   "size": [
+    1906,
+    648
+   ],
+   "filled": [
+    {
+     "box": [
+      480,
+      0,
+      564,
+      648
+     ],
+     "from_dx": -90,
+     "from_dy": 0,
+     "what": "left column and its couplet (modelled in front)"
+    },
+    {
+     "box": [
+      1368,
+      0,
+      1452,
+      648
+     ],
+     "from_dx": 90,
+     "from_dy": 0,
+     "what": "right column and its couplet (modelled in front)"
+    },
+    {
+     "box": [
+      274,
+      134,
+      432,
+      252
+     ],
+     "from_dx": -168,
+     "from_dy": 0,
+     "what": "left lantern (2026)"
+    },
+    {
+     "box": [
+      1495,
+      142,
+      1649,
+      254
+     ],
+     "from_dx": 168,
+     "from_dy": 0,
+     "what": "right lantern (2026)"
+    },
+    {
+     "box": [
+      366,
+      266,
+      498,
+      360
+     ],
+     "from_dx": 0,
+     "from_dy": 91,
+     "what": "two lens ghosts of the sun (round light patches)"
+    },
+    {
+     "deflared_px": [
+      560,
+      1150,
+      260
+     ],
+     "what": "the sun's flare (glow) in IMG_5614, taken off row by row"
+    },
+    {
+     "box": [
+      196,
+      4,
+      338,
+      74
+     ],
+     "what": "south bowl-shaped strut"
+    },
+    {
+     "box": [
+      186,
+      64,
+      328,
+      114
+     ],
+     "what": "south carved block"
+    },
+    {
+     "box": [
+      0,
+      102,
+      572,
+      158
+     ],
+     "what": "south carved beam"
+    },
+    {
+     "box": [
+      0,
+      150,
+      62,
+      202
+     ],
+     "what": "its bracket at the pilaster"
+    },
+    {
+     "box": [
+      448,
+      146,
+      522,
+      208
+     ],
+     "what": "its bracket at the column, and the top of a 2026 lantern"
+    },
+    {
+     "box": [
+      554,
+      74,
+      654,
+      272
+     ],
+     "what": "the curved beam from the south column back to this wall"
+    },
+    {
+     "box": [
+      480,
+      0,
+      564,
+      648
+     ],
+     "what": "south column (filled before)"
+    },
+    {
+     "box": [
+      274,
+      134,
+      432,
+      252
+     ],
+     "what": "south lantern (filled before)"
+    },
+    {
+     "box": [
+      1584,
+      8,
+      1732,
+      86
+     ],
+     "what": "north bowl-shaped strut"
+    },
+    {
+     "box": [
+      1594,
+      78,
+      1734,
+      130
+     ],
+     "what": "north carved block"
+    },
+    {
+     "box": [
+      1360,
+      116,
+      1906,
+      172
+     ],
+     "what": "north carved beam"
+    },
+    {
+     "box": [
+      1866,
+      158,
+      1906,
+      208
+     ],
+     "what": "its bracket at the pilaster"
+    },
+    {
+     "box": [
+      1400,
+      152,
+      1468,
+      218
+     ],
+     "what": "its bracket at the column, and the top of a 2026 lantern"
+    },
+    {
+     "box": [
+      1268,
+      38,
+      1374,
+      262
+     ],
+     "what": "the curved beam from the north column back to this wall"
+    },
+    {
+     "box": [
+      1368,
+      0,
+      1452,
+      648
+     ],
+     "what": "north column (filled before)"
+    },
+    {
+     "box": [
+      1495,
+      142,
+      1649,
+      254
+     ],
+     "what": "north lantern (filled before)"
+    },
+    {
+     "box": [
+      0,
+      0,
+      1906,
+      14
+     ],
+     "what": "the frieze's lower edge (modelled in front)"
+    },
+    {
+     "region": [
+      0,
+      0,
+      658,
+      222
+     ],
+     "what": "redrawn: the drawn brick, lit as the wall around"
+    },
+    {
+     "region": [
+      1248,
+      0,
+      1906,
+      222
+     ],
+     "what": "redrawn: the drawn brick, lit as the wall around"
+    }
+   ],
+   "covers_m": [
+    10.8,
+    3.67
+   ],
+   "note": "porch back wall, both side bays and the entrance: grey brick, red dado, door gods, name board 居石侯公祠, couplets"
+  },
+  "hall_block": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    383,
+    558,
+    514,
+    598
+   ],
+   "size": [
+    131,
+    40
+   ],
+   "filled": [],
+   "covers_m": [
+    0.74,
+    0.23
+   ],
+   "note": "carved block on the south side bay's beam (the north one repeats it mirrored)"
+  },
+  "hall_frieze": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    72,
+    446,
+    2214,
+    504
+   ],
+   "size": [
+    2142,
+    58
+   ],
+   "filled": [
+    {
+     "box": [
+      828,
+      0,
+      1212,
+      58
+     ],
+     "from_dx": 384,
+     "from_dy": 0,
+     "what": "the sun's flare, replaced by the frieze beside it"
+    }
+   ],
+   "covers_m": [
+    12.1,
+    0.33
+   ],
+   "note": "painted frieze under the front eave"
+  },
+  "hall_ridge": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    1296,
+    314,
+    1680,
+    366
+   ],
+   "size": [
+    384,
+    52
+   ],
+   "filled": [],
+   "covers_m": [
+    2.18,
+    0.3
+   ],
+   "note": "front face of the entrance hall ridge, a stretch clear of the flare; repeated along it"
+  },
+  "hall_platform": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    144,
+    1086,
+    828,
+    1236
+   ],
+   "size": [
+    684,
+    150
+   ],
+   "filled": [],
+   "covers_m": [
+    3.9,
+    0.85
+   ],
+   "note": "side platform front: granite top slab over red sandstone"
+  },
+  "hall_pilaster": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    70,
+    480,
+    187,
+    1080
+   ],
+   "size": [
+    117,
+    600
+   ],
+   "filled": [],
+   "covers_m": [
+    0.68,
+    3.4
+   ],
+   "note": "red sandstone end pilaster"
+  },
+  "hall_base": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    144,
+    1122,
+    828,
+    1234
+   ],
+   "size": [
+    684,
+    112
+   ],
+   "filled": [],
+   "covers_m": [
+    3.9,
+    0.64
+   ],
+   "note": "red sandstone front of the side platforms"
+  },
+  "hall_steps": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    720,
+    1200,
+    1596,
+    1294
+   ],
+   "size": [
+    876,
+    94
+   ],
+   "filled": [],
+   "covers_m": [
+    5.0,
+    0.53
+   ],
+   "note": "granite steps"
+  },
+  "hall_column": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    706,
+    510,
+    754,
+    1086
+   ],
+   "size": [
+    48,
+    576
+   ],
+   "filled": [],
+   "covers_m": [
+    0.3,
+    3.3
+   ],
+   "note": "granite column, with its red couplet"
+  },
+  "hall_couplet_l": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    676,
+    648,
+    742,
+    1062
+   ],
+   "size": [
+    66,
+    414
+   ],
+   "filled": [],
+   "covers_m": [
+    0.37,
+    2.35
+   ],
+   "note": "couplet on the left column"
+  },
+  "hall_couplet_r": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    1572,
+    654,
+    1638,
+    1066
+   ],
+   "size": [
+    66,
+    412
+   ],
+   "filled": [],
+   "covers_m": [
+    0.37,
+    2.35
+   ],
+   "note": "couplet on the right column"
+  },
+  "hall_board": {
+   "photo": "IMG_5614",
+   "box_px_2400": [
+    190,
+    590,
+    706,
+    646
+   ],
+   "size": [
+    516,
+    56
+   ],
+   "filled": [],
+   "covers_m": [
+    2.95,
+    0.3
+   ],
+   "note": "carved gilt board over the left side bay"
+  },
+  "temple_hs_front": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    18,
+    658,
+    1094,
+    1042
+   ],
+   "size": [
+    1076,
+    384
+   ],
+   "filled": [
+    {
+     "box": [
+      48,
+      44,
+      314,
+      384
+     ],
+     "from_dx": 720,
+     "from_dy": 0,
+     "what": "incense burner (2026) in front of the wall, replaced by the wall right of the door"
+    }
+   ],
+   "covers_m": [
+    8.0,
+    2.9
+   ],
+   "note": "Hung Shing Temple 洪聖古廟 front: grey brick on granite ashlar, red door, couplets, round and square lattice windows"
+  },
+  "temple_pf_front": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    1550,
+    682,
+    2150,
+    1066
+   ],
+   "size": [
+    600,
+    384
+   ],
+   "filled": [
+    {
+     "box": [
+      448,
+      98,
+      538,
+      384
+     ],
+     "from_dx": -86,
+     "from_dy": 0,
+     "what": "incense burner (2026) in front of the brick, replaced by the brick beside it"
+    },
+    {
+     "box": [
+      538,
+      98,
+      600,
+      384
+     ],
+     "from_dx": -535,
+     "from_dy": 0,
+     "what": "incense burner (2026) in front of the right pilaster, replaced by the left pilaster"
+    }
+   ],
+   "covers_m": [
+    4.7,
+    2.9
+   ],
+   "note": "Pai Fung Temple 排峰古廟 front: grey brick on granite ashlar, red door, couplets"
+  },
+  "temple_hs_frieze": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    10,
+    638,
+    1094,
+    674
+   ],
+   "size": [
+    1084,
+    36
+   ],
+   "filled": [],
+   "covers_m": [
+    8.0,
+    0.28
+   ],
+   "note": "Hung Shing painted frieze under the eave"
+  },
+  "temple_pf_frieze": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    1555,
+    654,
+    2148,
+    690
+   ],
+   "size": [
+    593,
+    36
+   ],
+   "filled": [],
+   "covers_m": [
+    4.7,
+    0.28
+   ],
+   "note": "Pai Fung painted frieze under the eave"
+  },
+  "temple_hs_ridge": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    276,
+    514,
+    1074,
+    550
+   ],
+   "size": [
+    798,
+    36
+   ],
+   "filled": [],
+   "covers_m": [
+    6.4,
+    0.32
+   ],
+   "note": "Hung Shing ridge band"
+  },
+  "temple_screen": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    1200,
+    768,
+    1428,
+    924
+   ],
+   "size": [
+    228,
+    156
+   ],
+   "filled": [],
+   "covers_m": [
+    3.2,
+    2.2
+   ],
+   "note": "screen wall with relief panel at the back of the passage"
+  },
+  "temple_pillar": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    1146,
+    658,
+    1206,
+    934
+   ],
+   "size": [
+    60,
+    276
+   ],
+   "filled": [],
+   "covers_m": [
+    0.34,
+    3.0
+   ],
+   "note": "carved granite pillar of the passage (the left one)"
+  },
+  "temple_pillar_base": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    1140,
+    936,
+    1212,
+    1030
+   ],
+   "size": [
+    72,
+    94
+   ],
+   "filled": [],
+   "covers_m": [
+    0.5,
+    0.62
+   ],
+   "note": "its granite base block"
+  },
+  "temple_ashlar": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    734,
+    934,
+    1042,
+    1039
+   ],
+   "size": [
+    308,
+    105
+   ],
+   "filled": [],
+   "covers_m": [
+    2.6,
+    0.9
+   ],
+   "note": "granite ashlar dado"
+  },
+  "temple_brick": {
+   "photo": "IMG_5665",
+   "box_px_2400": [
+    742,
+    702,
+    862,
+    804
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "filled": [],
+   "covers_m": [
+    1.0,
+    0.85
+   ],
+   "note": "temple grey brick"
+  },
+  "hall_brick": {
+   "drawn": true,
+   "face_rgb_from": [
+    "IMG_9052",
+    [
+     1260,
+     1560,
+     1716,
+     2040
+    ]
+   ],
+   "joint_rgb": [
+    226,
+    228,
+    226
+   ],
+   "covers_m": [
+    2.4,
+    1.184
+   ],
+   "course_m": 0.074,
+   "brick_m": 0.3,
+   "note": "grey brick, drawn to the measured courses; face colour this building's (IMG_9052)"
+  },
+  "hall_roof": {
+   "drawn": true,
+   "rgb": [
+    96,
+    96,
+    96
+   ],
+   "covers_m": [
+    2.0,
+    2.0
+   ],
+   "note": "grey clay tiles; colour measured on IMG_5614"
+  },
+  "temple_roof": {
+   "drawn": true,
+   "rgb": [
+    166,
+    119,
+    97
+   ],
+   "covers_m": [
+    1.6,
+    1.6
+   ],
+   "note": "orange glazed tiles; colour measured on IMG_5665"
+  },
+  "hall_soffit": {
+   "drawn": true,
+   "colours_from": [
+    "IMG_9053 (rotated upright)",
+    [
+     309,
+     1646,
+     891,
+     2229
+    ]
+   ],
+   "rgb_dark": [
+    28,
+    21,
+    20
+   ],
+   "rgb_pale": [
+    109,
+    84,
+    69
+   ],
+   "covers_m": [
+    0.88,
+    0.68
+   ],
+   "note": "the porch roof from below: rafters and pan-tile undersides, drawn; colours this building's (IMG_9053)"
+  }
+ }
+}

@@ -1,0 +1,1103 @@
+{
+ "made": "viewer_1982/tools/shopfronts.py",
+ "paints": [
+  [
+   "unpainted",
+   null
+  ],
+  [
+   "whitewash (AN01)",
+   "#cdc7b6"
+  ],
+  [
+   "faded yellow (AN06)",
+   "#d8b25e"
+  ],
+  [
+   "dark green (AN02)",
+   "#55735c"
+  ],
+  [
+   "blue-green (AN03)",
+   "#739a93"
+  ],
+  [
+   "oxide red (AN14)",
+   "#94523a"
+  ],
+  [
+   "grey paint",
+   "#a3a39b"
+  ]
+ ],
+ "gate": "shopfronts/gate_MC09.jpg",
+ "fronts": [
+  {
+   "id": "FP2364",
+   "kind": "structure (line style mixed on the sheet)",
+   "tier": "sourced",
+   "road_m": 0.66,
+   "wall": 2,
+   "a": [
+    828520.18,
+    840443.83
+   ],
+   "b": [
+    828516.2,
+    840444.16
+   ],
+   "n": [
+    -0.0826,
+    -0.9966
+   ],
+   "L": 3.99,
+   "H": 3.55,
+   "h_open": 2.3,
+   "fascia": "#7d6a52",
+   "awning": 1.46,
+   "awning_posts": false,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.85,
+     "kind": "boards",
+     "paint": 3,
+     "wear": 0.6,
+     "bar": false,
+     "seed": 0.64929,
+     "board_w": 0.297
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2781",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 1.5,
+   "wall": 0,
+   "a": [
+    828651.0,
+    840431.9
+   ],
+   "b": [
+    828664.0,
+    840431.5
+   ],
+   "n": [
+    -0.0308,
+    -0.9995
+   ],
+   "L": 13.01,
+   "H": 3.23,
+   "h_open": 2.3,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.218,
+     "kind": "boards",
+     "paint": 5,
+     "wear": 0.7,
+     "bar": false,
+     "seed": 0.80129,
+     "board_w": 0.279
+    },
+    {
+     "s0": 3.358,
+     "s1": 6.435,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.28,
+     "bar": true,
+     "seed": 0.45858,
+     "board_w": 0.282
+    },
+    {
+     "s0": 6.575,
+     "s1": 9.652,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.77,
+     "bar": false,
+     "seed": 0.92265,
+     "board_w": 0.314
+    },
+    {
+     "s0": 9.793,
+     "s1": 12.87,
+     "kind": "gate",
+     "paint": 0,
+     "wear": 0.33,
+     "bar": false,
+     "seed": 0.67804,
+     "board_w": 0.31
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2783",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 1.98,
+   "wall": 3,
+   "a": [
+    828664.0,
+    840431.5
+   ],
+   "b": [
+    828667.1,
+    840431.5
+   ],
+   "n": [
+    0.0,
+    -1.0
+   ],
+   "L": 3.1,
+   "H": 3.17,
+   "h_open": 2.28,
+   "fascia": "#7d6a52",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 2.96,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.43,
+     "bar": true,
+     "seed": 0.16751,
+     "board_w": 0.285
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2784",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 2.46,
+   "wall": 3,
+   "a": [
+    828667.1,
+    840431.5
+   ],
+   "b": [
+    828675.4,
+    840431.5
+   ],
+   "n": [
+    0.0,
+    -1.0
+   ],
+   "L": 8.3,
+   "H": 3.38,
+   "h_open": 2.3,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 4.08,
+     "kind": "boards",
+     "paint": 3,
+     "wear": 0.52,
+     "bar": true,
+     "seed": 0.70914,
+     "board_w": 0.289
+    },
+    {
+     "s0": 4.22,
+     "s1": 8.16,
+     "kind": "gate",
+     "paint": 4,
+     "wear": 0.65,
+     "bar": false,
+     "seed": 0.51535,
+     "board_w": 0.292
+    }
+   ],
+   "sign": {
+    "s": 0.07,
+    "paint": "#d8cdb2"
+   }
+  },
+  {
+   "id": "FP2787",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 5.42,
+   "wall": 1,
+   "a": [
+    828678.45,
+    840434.11
+   ],
+   "b": [
+    828682.3,
+    840433.3
+   ],
+   "n": [
+    -0.2059,
+    -0.9786
+   ],
+   "L": 3.93,
+   "H": 4.05,
+   "h_open": 2.3,
+   "fascia": "#3f4a40",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.79,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.73,
+     "bar": true,
+     "seed": 0.63654,
+     "board_w": 0.281
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2368",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 5.97,
+   "wall": 1,
+   "a": [
+    828683.51,
+    840433.98
+   ],
+   "b": [
+    828689.6,
+    840433.5
+   ],
+   "n": [
+    -0.0786,
+    -0.9969
+   ],
+   "L": 6.11,
+   "H": 3.17,
+   "h_open": 2.28,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 2.985,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.41,
+     "bar": true,
+     "seed": 0.92799,
+     "board_w": 0.307
+    },
+    {
+     "s0": 3.125,
+     "s1": 5.97,
+     "kind": "boards",
+     "paint": 2,
+     "wear": 0.71,
+     "bar": true,
+     "seed": 0.63265,
+     "board_w": 0.315
+    }
+   ],
+   "sign": {
+    "s": 0.07,
+    "paint": "#2f4a3a"
+   }
+  },
+  {
+   "id": "FP2378",
+   "kind": "temporary structure",
+   "tier": "sourced",
+   "road_m": 2.36,
+   "wall": 6,
+   "a": [
+    828762.17,
+    840424.6
+   ],
+   "b": [
+    828751.13,
+    840424.84
+   ],
+   "n": [
+    -0.0217,
+    -0.9998
+   ],
+   "L": 11.04,
+   "H": 3.41,
+   "h_open": 2.3,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.633,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.77,
+     "bar": false,
+     "seed": 0.58914,
+     "board_w": 0.305
+    },
+    {
+     "s0": 3.773,
+     "s1": 7.267,
+     "kind": "gate",
+     "paint": 4,
+     "wear": 0.6,
+     "bar": false,
+     "seed": 0.89725,
+     "board_w": 0.269
+    },
+    {
+     "s0": 7.407,
+     "s1": 10.9,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.26,
+     "bar": false,
+     "seed": 0.61292,
+     "board_w": 0.285
+    }
+   ],
+   "sign": {
+    "s": 10.97,
+    "paint": "#7d2f22"
+   }
+  },
+  {
+   "id": "FP2425",
+   "kind": "temporary structure",
+   "tier": "sourced",
+   "road_m": 3.84,
+   "wall": 19,
+   "a": [
+    828535.3,
+    840428.5
+   ],
+   "b": [
+    828538.3,
+    840428.9
+   ],
+   "n": [
+    -0.1322,
+    0.9912
+   ],
+   "L": 3.03,
+   "H": 3.58,
+   "h_open": 2.3,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 2.89,
+     "kind": "boards",
+     "paint": 5,
+     "wear": 0.7,
+     "bar": true,
+     "seed": 0.7044,
+     "board_w": 0.313
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2790",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 4.59,
+   "wall": 1,
+   "a": [
+    828578.7,
+    840427.6
+   ],
+   "b": [
+    828574.6,
+    840427.6
+   ],
+   "n": [
+    0.0,
+    1.0
+   ],
+   "L": 4.1,
+   "H": 3.13,
+   "h_open": 2.25,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.96,
+     "kind": "gate",
+     "paint": 5,
+     "wear": 0.76,
+     "bar": false,
+     "seed": 0.77809,
+     "board_w": 0.277
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2791",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 4.26,
+   "wall": 3,
+   "a": [
+    828587.0,
+    840427.0
+   ],
+   "b": [
+    828578.7,
+    840427.0
+   ],
+   "n": [
+    0.0,
+    1.0
+   ],
+   "L": 8.3,
+   "H": 3.22,
+   "h_open": 2.3,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 4.08,
+     "kind": "gate",
+     "paint": 5,
+     "wear": 0.81,
+     "bar": false,
+     "seed": 0.93587,
+     "board_w": 0.268
+    },
+    {
+     "s0": 4.22,
+     "s1": 8.16,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.81,
+     "bar": true,
+     "seed": 0.89993,
+     "board_w": 0.266
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2797",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 0.6,
+   "wall": 4,
+   "a": [
+    828622.7,
+    840427.0
+   ],
+   "b": [
+    828620.1,
+    840427.2
+   ],
+   "n": [
+    0.0767,
+    0.9971
+   ],
+   "L": 2.61,
+   "H": 3.74,
+   "h_open": 2.3,
+   "fascia": "#8a5a40",
+   "awning": 1.4,
+   "awning_posts": false,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 2.47,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.43,
+     "bar": true,
+     "seed": 0.76755,
+     "board_w": 0.276
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2798",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 0.69,
+   "wall": 1,
+   "a": [
+    828620.1,
+    840427.3
+   ],
+   "b": [
+    828616.9,
+    840427.3
+   ],
+   "n": [
+    0.0,
+    1.0
+   ],
+   "L": 3.2,
+   "H": 3.36,
+   "h_open": 2.3,
+   "fascia": "#3f4a40",
+   "awning": 1.49,
+   "awning_posts": false,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.06,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.83,
+     "bar": true,
+     "seed": 0.20667,
+     "board_w": 0.295
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2801",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 0.0,
+   "wall": 1,
+   "a": [
+    828632.4,
+    840427.0
+   ],
+   "b": [
+    828624.9,
+    840427.0
+   ],
+   "n": [
+    0.0,
+    1.0
+   ],
+   "L": 7.5,
+   "H": 3.68,
+   "h_open": 2.3,
+   "fascia": "#5b4a3a",
+   "awning": 0.0,
+   "awning_posts": false,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.68,
+     "kind": "gate",
+     "paint": 0,
+     "wear": 0.29,
+     "bar": false,
+     "seed": 0.96066,
+     "board_w": 0.308
+    },
+    {
+     "s0": 3.82,
+     "s1": 7.36,
+     "kind": "boards",
+     "paint": 3,
+     "wear": 0.54,
+     "bar": false,
+     "seed": 0.12946,
+     "board_w": 0.314
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2803",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 3.56,
+   "wall": 1,
+   "a": [
+    828647.5,
+    840421.9
+   ],
+   "b": [
+    828643.9,
+    840421.9
+   ],
+   "n": [
+    0.0,
+    1.0
+   ],
+   "L": 3.6,
+   "H": 3.22,
+   "h_open": 2.3,
+   "fascia": "#8a5a40",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.46,
+     "kind": "boards",
+     "paint": 1,
+     "wear": 0.39,
+     "bar": false,
+     "seed": 0.2843,
+     "board_w": 0.269
+    }
+   ],
+   "sign": {
+    "s": 3.53,
+    "paint": "#d8cdb2"
+   }
+  },
+  {
+   "id": "FP2432",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 5.71,
+   "wall": 1,
+   "a": [
+    828664.9,
+    840418.25
+   ],
+   "b": [
+    828661.9,
+    840418.25
+   ],
+   "n": [
+    0.0,
+    1.0
+   ],
+   "L": 3.0,
+   "H": 3.22,
+   "h_open": 2.3,
+   "fascia": "#8a5a40",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 2.86,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.5,
+     "bar": false,
+     "seed": 0.04073,
+     "board_w": 0.296
+    }
+   ],
+   "sign": {
+    "s": 0.07,
+    "paint": "#d8cdb2"
+   }
+  },
+  {
+   "id": "FP2805",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 0.94,
+   "wall": 4,
+   "a": [
+    828669.4,
+    840422.9
+   ],
+   "b": [
+    828663.0,
+    840422.7
+   ],
+   "n": [
+    -0.0312,
+    0.9995
+   ],
+   "L": 6.4,
+   "H": 3.45,
+   "h_open": 2.3,
+   "fascia": "#3f4a40",
+   "awning": 1.74,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.13,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.29,
+     "bar": true,
+     "seed": 0.53959,
+     "board_w": 0.314
+    },
+    {
+     "s0": 3.27,
+     "s1": 6.26,
+     "kind": "boards",
+     "paint": 6,
+     "wear": 0.29,
+     "bar": true,
+     "seed": 0.19177,
+     "board_w": 0.265
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2807",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 3.15,
+   "wall": 1,
+   "a": [
+    828671.9,
+    840420.2
+   ],
+   "b": [
+    828669.6,
+    840420.2
+   ],
+   "n": [
+    0.0,
+    1.0
+   ],
+   "L": 2.3,
+   "H": 3.43,
+   "h_open": 2.3,
+   "fascia": "#3f4a40",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 2.16,
+     "kind": "boards",
+     "paint": 5,
+     "wear": 0.3,
+     "bar": true,
+     "seed": 0.86097,
+     "board_w": 0.283
+    }
+   ],
+   "sign": {
+    "s": 0.07,
+    "paint": "#d8cdb2"
+   }
+  },
+  {
+   "id": "FP2435",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 4.68,
+   "wall": 1,
+   "a": [
+    828685.2,
+    840417.7
+   ],
+   "b": [
+    828679.0,
+    840417.7
+   ],
+   "n": [
+    0.0,
+    1.0
+   ],
+   "L": 6.2,
+   "H": 3.1,
+   "h_open": 2.23,
+   "fascia": "#3f4a40",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.03,
+     "kind": "boards",
+     "paint": 5,
+     "wear": 0.81,
+     "bar": true,
+     "seed": 0.67882,
+     "board_w": 0.317
+    },
+    {
+     "s0": 3.17,
+     "s1": 6.06,
+     "kind": "boards",
+     "paint": 3,
+     "wear": 0.75,
+     "bar": true,
+     "seed": 0.55622,
+     "board_w": 0.285
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2436",
+   "kind": "permanent building",
+   "tier": "sourced",
+   "road_m": 3.54,
+   "wall": 6,
+   "a": [
+    828689.8,
+    840418.0
+   ],
+   "b": [
+    828714.2,
+    840416.3
+   ],
+   "n": [
+    0.0695,
+    0.9976
+   ],
+   "L": 24.46,
+   "H": 3.66,
+   "h_open": 2.3,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.474,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.52,
+     "bar": true,
+     "seed": 0.63006,
+     "board_w": 0.288
+    },
+    {
+     "s0": 3.614,
+     "s1": 6.949,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.32,
+     "bar": false,
+     "seed": 0.64339,
+     "board_w": 0.283
+    },
+    {
+     "s0": 7.089,
+     "s1": 10.423,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.68,
+     "bar": false,
+     "seed": 0.05168,
+     "board_w": 0.3
+    },
+    {
+     "s0": 10.563,
+     "s1": 13.897,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.48,
+     "bar": true,
+     "seed": 0.57662,
+     "board_w": 0.278
+    },
+    {
+     "s0": 14.037,
+     "s1": 17.371,
+     "kind": "boards",
+     "paint": 6,
+     "wear": 0.26,
+     "bar": false,
+     "seed": 0.65251,
+     "board_w": 0.305
+    },
+    {
+     "s0": 17.511,
+     "s1": 20.846,
+     "kind": "gate",
+     "paint": 0,
+     "wear": 0.49,
+     "bar": false,
+     "seed": 0.89116,
+     "board_w": 0.304
+    },
+    {
+     "s0": 20.986,
+     "s1": 24.32,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.7,
+     "bar": false,
+     "seed": 0.12992,
+     "board_w": 0.291
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2437",
+   "kind": "temporary structure",
+   "tier": "sourced",
+   "road_m": 2.26,
+   "wall": 8,
+   "a": [
+    828731.4,
+    840415.9
+   ],
+   "b": [
+    828734.8,
+    840416.1
+   ],
+   "n": [
+    -0.0587,
+    0.9983
+   ],
+   "L": 3.41,
+   "H": 3.42,
+   "h_open": 2.3,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.27,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.5,
+     "bar": true,
+     "seed": 0.14909,
+     "board_w": 0.307
+    }
+   ],
+   "sign": null
+  },
+  {
+   "id": "FP2808",
+   "kind": "structure seen on the photo (no sheet outline)",
+   "tier": "sourced",
+   "road_m": 5.18,
+   "wall": 3,
+   "a": [
+    828739.6,
+    840428.5
+   ],
+   "b": [
+    828749.3,
+    840428.5
+   ],
+   "n": [
+    0.0,
+    -1.0
+   ],
+   "L": 9.7,
+   "H": 3.16,
+   "h_open": 2.28,
+   "fascia": "#5b4a3a",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 3.187,
+     "kind": "gate",
+     "paint": 6,
+     "wear": 0.37,
+     "bar": false,
+     "seed": 0.0878,
+     "board_w": 0.296
+    },
+    {
+     "s0": 3.327,
+     "s1": 6.373,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.36,
+     "bar": true,
+     "seed": 0.13627,
+     "board_w": 0.273
+    },
+    {
+     "s0": 6.513,
+     "s1": 9.56,
+     "kind": "gate",
+     "paint": 0,
+     "wear": 0.81,
+     "bar": false,
+     "seed": 0.94435,
+     "board_w": 0.305
+    }
+   ],
+   "sign": {
+    "s": 0.07,
+    "paint": "#d8cdb2"
+   }
+  },
+  {
+   "id": "FP2438",
+   "kind": "temporary structure",
+   "tier": "sourced",
+   "road_m": 2.49,
+   "wall": 0,
+   "a": [
+    828748.45,
+    840414.62
+   ],
+   "b": [
+    828757.43,
+    840413.83
+   ],
+   "n": [
+    0.0876,
+    0.9962
+   ],
+   "L": 9.01,
+   "H": 3.28,
+   "h_open": 2.3,
+   "fascia": "#8a5a40",
+   "awning": 2.2,
+   "awning_posts": true,
+   "bays": [
+    {
+     "s0": 0.14,
+     "s1": 2.957,
+     "kind": "boards",
+     "paint": 4,
+     "wear": 0.6,
+     "bar": false,
+     "seed": 0.91714,
+     "board_w": 0.287
+    },
+    {
+     "s0": 3.097,
+     "s1": 5.913,
+     "kind": "boards",
+     "paint": 0,
+     "wear": 0.65,
+     "bar": false,
+     "seed": 0.86911,
+     "board_w": 0.267
+    },
+    {
+     "s0": 6.053,
+     "s1": 8.87,
+     "kind": "boards",
+     "paint": 5,
+     "wear": 0.48,
+     "bar": false,
+     "seed": 0.9339,
+     "board_w": 0.267
+    }
+   ],
+   "sign": null
+  }
+ ]
+}

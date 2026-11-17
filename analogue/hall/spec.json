@@ -1,0 +1,315 @@
+{
+ "hall": {
+  "name": "Hau Ku Shek Ancestral Hall 居石侯公祠",
+  "corners": {
+   "rear_north": [
+    829261.14,
+    841270.4
+   ],
+   "front_north": [
+    829291.38,
+    841263.33
+   ],
+   "front_south": [
+    829287.71,
+    841251.4
+   ],
+   "rear_south": [
+    829257.0,
+    841259.4
+   ]
+  },
+  "length_m": 31.39,
+  "width_front_m": 12.48,
+  "width_rear_m": 11.75,
+  "courtyards": {
+   "west": {
+    "s": [
+     5.04,
+     9.03
+    ],
+    "w_from_axis": [
+     -2.63,
+     3.03
+    ]
+   },
+   "east": {
+    "s": [
+     19.05,
+     23.75
+    ],
+    "w_from_axis": [
+     -2.36,
+     2.6
+    ]
+   }
+  },
+  "halls": [
+   {
+    "id": "rear",
+    "s": [
+     0.0,
+     6.0
+    ],
+    "ridge_s": 3.3,
+    "ridge_mPD": 14.45,
+    "eave_back": [
+     -0.4,
+     12.71
+    ],
+    "eave_front": [
+     6.6,
+     12.9
+    ],
+    "ridge_band_m": 0.38
+   },
+   {
+    "id": "middle",
+    "s": [
+     10.1,
+     19.2
+    ],
+    "ridge_s": 14.3,
+    "ridge_mPD": 13.97,
+    "eave_back": [
+     9.5,
+     11.81
+    ],
+    "eave_front": [
+     19.8,
+     11.5
+    ],
+    "ridge_band_m": 0.38
+   },
+   {
+    "id": "entrance",
+    "s": [
+     24.3,
+     31.39
+    ],
+    "ridge_s": 28.2,
+    "ridge_mPD": 13.83,
+    "eave_back": [
+     23.7,
+     11.72
+    ],
+    "eave_front": [
+     32.49,
+     11.9
+    ],
+    "ridge_band_m": 0.45
+   }
+  ],
+  "courtyards_from_roofs": {
+   "west": {
+    "s": [
+     6.0,
+     10.1
+    ],
+    "w_from_axis": [
+     -2.63,
+     3.03
+    ]
+   },
+   "east": {
+    "s": [
+     19.2,
+     24.3
+    ],
+    "w_from_axis": [
+     -2.36,
+     2.6
+    ]
+   }
+  },
+  "note_west_courtyard": "the sheet draws the west courtyard at s 5.04-9.03; the 2010 roofs leave it at 6.0-10.1 (about 1 m nearer the front)",
+  "corridor_roof_mPD": {
+   "west": [
+    10.85,
+    10.35
+   ],
+   "east": [
+    11.3,
+    10.75
+   ]
+  },
+  "ground_mPD": {
+   "rear": 8.0,
+   "middle": 7.55,
+   "front": 6.9
+  },
+  "front": {
+   "pilaster_w": 0.68,
+   "side_bay_w": 2.95,
+   "column": 0.3,
+   "centre_bay_w": 4.86,
+   "column_h": 3.45,
+   "side_platform_h": 1.05,
+   "porch_floor_h": 0.55,
+   "steps_w": 5.3,
+   "steps_out": 0.9,
+   "frieze": [
+    4.46,
+    4.77
+   ],
+   "boards": [
+    3.7,
+    3.93
+   ],
+   "block": [
+    3.93,
+    4.16
+   ],
+   "door": [
+    1.5,
+    2.5
+   ],
+   "porch_depth": 2.0,
+   "porch_wall_h": 3.67
+  },
+  "src": {
+   "plan": "sheets 2-SE-5C (Sep 1980) / 2-SE-5D (May 1980), the bold outline labelled \"Tsz Tong\" and its two inner squares, eye-read and snapped (viewer_1982/hall/snapped.geojson)",
+   "heights": "CEDD LiDAR DSM/DTM 2010/11 (SOURCES.md 3, 5m), long section viewer_1982/hall/section_hall_long.json; measured on this building 28 years after 1982, after its declaration (2003)",
+   "front": "the author's IMG_5614, 1 Aug 2026, read at 147 px/m",
+   "estimated": "porch depth 2.0 m (behind the columns; no photo from the side); the courtyard corridors (lean-to roofs on posts, from the 2010 heights beside the courtyards); the plinth of the side walls; every surface not on the front"
+  }
+ },
+ "temple": {
+  "name": "Hung Shing Temple 洪聖古廟 and Pai Fung Temple 排峰古廟",
+  "corners": {
+   "front_west": [
+    829162.01,
+    841064.98
+   ],
+   "front_east": [
+    829174.22,
+    841076.12
+   ],
+   "back_west": [
+    829152.23,
+    841074.76
+   ],
+   "back_east": [
+    829164.24,
+    841086.39
+   ]
+  },
+  "front_m": 16.53,
+  "depth_m": 13.83,
+  "ground_mPD": {
+   "front": 8.38,
+   "back": 9.2
+  },
+  "hung_shing": {
+   "x": [
+    0.0,
+    8.0
+   ],
+   "front_hall": {
+    "y": [
+     0.0,
+     3.5
+    ],
+    "ridge_y": 0.9,
+    "ridge_mPD": 12.85,
+    "eave_front": [
+     -0.85,
+     11.75
+    ],
+    "eave_back": [
+     3.5,
+     11.8
+    ]
+   },
+   "main_hall": {
+    "y": [
+     3.6,
+     8.4
+    ],
+    "ridge_y": 6.0,
+    "ridge_mPD": 13.0,
+    "eave_front": [
+     3.6,
+     11.75
+    ],
+    "eave_back": [
+     8.4,
+     11.85
+    ]
+   }
+  },
+  "pai_fung": {
+   "x": [
+    11.8,
+    16.53
+   ],
+   "front_hall": {
+    "y": [
+     0.0,
+     3.5
+    ],
+    "ridge_y": 0.9,
+    "ridge_mPD": 12.75,
+    "eave_front": [
+     -0.85,
+     11.7
+    ],
+    "eave_back": [
+     3.5,
+     11.75
+    ]
+   },
+   "courtyard": {
+    "x": [
+     12.6,
+     15.8
+    ],
+    "y": [
+     3.6,
+     8.4
+    ]
+   }
+  },
+  "rear_range": {
+   "x": [
+    0.0,
+    16.53
+   ],
+   "y": [
+    8.5,
+    13.83
+   ],
+   "ridge_y": 11.25,
+   "ridge_mPD": 13.9,
+   "eave_front": [
+    8.5,
+    12.4
+   ],
+   "eave_back": [
+    14.4,
+    12.3
+   ]
+  },
+  "passage": {
+   "x": [
+    8.0,
+    11.8
+   ],
+   "pillars_x": [
+    8.45,
+    11.35
+   ],
+   "pillar_h": 3.6,
+   "screen_y": 4.2,
+   "screen_h": 2.2
+  },
+  "front_tex_h": 2.9,
+  "dado_h": 0.9,
+  "src": {
+   "plan": "sheet 2-SE-5C (Sep 1980), one outline labelled \"Temple\", snapped (viewer_1982/hall/snapped.geojson); split into the two temples and the passage by IMG_5665 and the 2010 heights",
+   "heights": "CEDD LiDAR DSM/DTM 2010/11, the grid printed by viewer_1982/hall/sections.py --temple (relative heights + DTM 8.38 front, 9.2 back)",
+   "front": "the author's IMG_5665, 1 Aug 2026, read at 107 px/m",
+   "estimated": "the halls behind the fronts (layout from the 2010 heights only), the passage roof, every surface not on the fronts"
+  }
+ }
+}

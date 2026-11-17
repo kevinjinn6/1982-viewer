@@ -1,0 +1,114 @@
+{
+ "_README": "A \"1982 look\" for the hall / temple mockup (2026-10-25): tex1982/*.jpg, aged copies of tex/*.jpg.",
+ "tier": "inferred",
+ "basis": [
+  "S52 (restorations 1992, 2001)",
+  "S53 (1964 plastering)"
+ ],
+ "textures": {
+  "hall_porch_wall": {
+   "from": "tex/hall_porch_wall.jpg",
+   "what": "faded paint (the red dado, the door gods, the couplets), soot from the top, damp at the foot"
+  },
+  "hall_frieze": {
+   "from": "tex/hall_frieze.jpg",
+   "what": "carvings worn and sooted: detail softened, colour faded"
+  },
+  "hall_ridge": {
+   "from": "tex/hall_ridge.jpg",
+   "what": "carvings worn and sooted: detail softened, colour faded"
+  },
+  "hall_board": {
+   "from": "tex/hall_board.jpg",
+   "what": "carvings worn and sooted: detail softened, colour faded"
+  },
+  "hall_block": {
+   "from": "tex/hall_block.jpg",
+   "what": "carvings worn and sooted: detail softened, colour faded"
+  },
+  "hall_couplet_l": {
+   "from": "tex/hall_couplet_l.jpg",
+   "what": "couplet paper faded"
+  },
+  "hall_couplet_r": {
+   "from": "tex/hall_couplet_r.jpg",
+   "what": "couplet paper faded"
+  },
+  "hall_pilaster": {
+   "from": "tex/hall_pilaster.jpg",
+   "what": "stone dirtier"
+  },
+  "hall_column": {
+   "from": "tex/hall_column.jpg",
+   "what": "stone dirtier"
+  },
+  "hall_platform": {
+   "from": "tex/hall_platform.jpg",
+   "what": "stone dirtier"
+  },
+  "hall_steps": {
+   "from": "tex/hall_steps.jpg",
+   "what": "stone dirtier"
+  },
+  "hall_base": {
+   "from": "tex/hall_base.jpg",
+   "what": "stone dirtier"
+  },
+  "hall_soffit": {
+   "from": "tex/hall_soffit.jpg",
+   "what": "the porch roof from below, sooted"
+  },
+  "hall_brick": {
+   "from": "tex/hall_brick.jpg",
+   "what": "grey brick, unevenly sooted (before the 2001 replacement of broken bricks)"
+  },
+  "hall_roof": {
+   "from": "tex/hall_roof.jpg",
+   "what": "tiles with lichen (before the 1992 / 2001 replacement of broken tiles)"
+  },
+  "temple_hs_front": {
+   "from": "tex/temple_hs_front.jpg",
+   "what": "brick under weathered lime plaster (S53, 1964); the 2026 lanterns painted over; paint faded"
+  },
+  "temple_pf_front": {
+   "from": "tex/temple_pf_front.jpg",
+   "what": "brick under weathered lime plaster (S53, 1964); the 2026 lanterns painted over; paint faded"
+  },
+  "temple_brick": {
+   "from": "tex/temple_brick.jpg",
+   "what": "the side and back walls under lime plaster (S53, 1964)"
+  },
+  "temple_hs_frieze": {
+   "from": "tex/temple_hs_frieze.jpg",
+   "what": "painted frieze / relief faded and sooted"
+  },
+  "temple_pf_frieze": {
+   "from": "tex/temple_pf_frieze.jpg",
+   "what": "painted frieze / relief faded and sooted"
+  },
+  "temple_hs_ridge": {
+   "from": "tex/temple_hs_ridge.jpg",
+   "what": "painted frieze / relief faded and sooted"
+  },
+  "temple_screen": {
+   "from": "tex/temple_screen.jpg",
+   "what": "painted frieze / relief faded and sooted"
+  },
+  "temple_ashlar": {
+   "from": "tex/temple_ashlar.jpg",
+   "what": "granite dirtier"
+  },
+  "temple_pillar": {
+   "from": "tex/temple_pillar.jpg",
+   "what": "granite dirtier"
+  },
+  "temple_pillar_base": {
+   "from": "tex/temple_pillar_base.jpg",
+   "what": "granite dirtier"
+  },
+  "temple_roof": {
+   "from": "tex/temple_roof.jpg",
+   "what": "glazed tiles dulled, with lichen"
+  }
+ }
+}
